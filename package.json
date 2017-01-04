@@ -1,12 +1,21 @@
 {
-  "name": "softwarecornwall",
+  "name": "swc-cluster",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c rollup.config.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Dan Reeves <hey@danreev.es>",
+  "license": "ISC",
+  "dependencies": {
+    "concaveman": "1.1.0",
+    "d3": "^4.4.0",
+    "haversine": "^1.0.2",
+    "lodash.flatten": "^4.4.0"
+  },
+  "devDependencies": {
+    "rollup": "^0.40.0",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  }
 }
