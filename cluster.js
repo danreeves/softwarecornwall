@@ -77,7 +77,7 @@ document.querySelector('svg')
     }
 });
 
-json('/data.json', (error, data) => {
+json(`${document.location}data.json`, (error, data) => {
     x.domain(extent(data, (d) => d[xkey])).nice();
     y.domain(extent(data, (d) => d[ykey])).nice();
 

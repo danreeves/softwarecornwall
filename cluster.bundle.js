@@ -9549,7 +9549,7 @@ document.querySelector('svg')
     }
 });
 
-json('/data.json', function (error, data) {
+json(((document.location) + "data.json"), function (error, data) {
     x.domain(extent(data, function (d) { return d[xkey]; })).nice();
     y.domain(extent(data, function (d) { return d[ykey]; })).nice();
 
