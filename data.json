@@ -204,35 +204,6 @@
   },
   {
     "type": "point",
-    "lat": 50.4154634,
-    "lon": -5.0763159,
-    "popup": "<div  about=\"/node/344\" typeof=\"sioc:Item foaf:Document\" class=\"ds-1col node node-company node-teaser view-mode-teaser clearfix\">\n\n\n<h3>Crowdfunder.co.uk</h3><a href='http://www.crowdfunder.co.uk' target='_blank'>www.crowdfunder.co.uk</a></div>",
-    "icon": {
-      "iconType": "marker",
-      "iconUrl": "/sites/softwarecornwall.flowmo.co/files/markers/marker.drupal.png",
-      "shadowUrl": "",
-      "iconSize": {
-        "x": "30",
-        "y": "30"
-      },
-      "iconAnchor": {
-        "x": "15",
-        "y": "30"
-      },
-      "shadowAnchor": {
-        "x": "",
-        "y": ""
-      },
-      "popupAnchor": {
-        "x": "0",
-        "y": "-15"
-      },
-      "iconImageStyle": "",
-      "htmlClass": ""
-    }
-  },
-  {
-    "type": "point",
     "lat": 50.1676333,
     "lon": -5.097864,
     "popup": "<div  about=\"/node/345\" typeof=\"sioc:Item foaf:Document\" class=\"ds-1col node node-company node-teaser view-mode-teaser clearfix\">\n\n\n<h3>fffunction</h3><a href='http://www.fffunction.co' target='_blank'>www.fffunction.co</a></div>",
@@ -813,8 +784,8 @@
   },
   {
     "type": "point",
-    "lat": 50.8248333,
-    "lon": -4.5292772,
+    "lat": 50.825904,
+    "lon": -4.548911,
     "popup": "<div  about=\"/node/365\" typeof=\"sioc:Item foaf:Document\" class=\"ds-1col node node-company node-teaser view-mode-teaser clearfix\">\n\n\n<h3>Big Eye Deers</h3><a href='http://www.bigeyedeers.co.uk' target='_blank'>www.bigeyedeers.co.uk</a></div>",
     "icon": {
       "iconType": "marker",
