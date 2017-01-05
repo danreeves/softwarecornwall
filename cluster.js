@@ -43,13 +43,13 @@ function fitToScreen (width, height) {
 function maxText (d) {
     const name = document.querySelector('.name');
     let size = 1;
-    name.removeAttribute('style');
     name.innerHTML = d.popup.match(/<h3>(.+)<\/h3>/)[1];
+    name.style.fontSize = `${size}vh`;
     while (name.clientHeight < window.innerHeight) {
-        name.setAttribute('style', `font-size: ${size}px`);
+        name.style.fontSize = `${size}vh`;
         size++;
     }
-    name.setAttribute('style', `font-size: ${size - 1}px`);
+    name.style.fontSize = `${size - 2}vh`;
 }
 
 const { width, height } = fitToScreen(900, 600);
